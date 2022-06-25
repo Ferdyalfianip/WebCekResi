@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.layer {
+    background-image: url(assets/Ekspedisi.jpg);
+    background-size:auto;
+    opacity: 1;
+}
+
+
+header {
+    width: 100%;
+}
+
+.jumbotron {
+    background-color: rgba(74, 226, 168, 0.9);
+    text-align: center;
+    line-height: 20px;
+    padding: 20px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.jumbotron p {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 20px;
+    font-family:'Lucida Sans Unicode';
+}
+
+.logo {
+    width: 18%;
+}
+
+.navbar {
+    background-color: rgba(0, 163, 168, 0.9);
+    width: 100%;
+    padding: 10px;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 10px 0 10px 10px;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding-right: 25px;
+    font-size: 17px;
+    font-family: Verdana;
+    color: rgb(0, 0, 0);
+}
+
+.navbar a:hover {
+    color:white
+}
+
+main {
+    width: 100%;
+    border-right: 1px solid rgb(226, 226, 226);
+}
+
+
+.layer-form {
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    margin: 0px auto;
+    padding: 30px 30px 20px 30px;
+}
+
+.container {
+    text-align:center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 70px;
+}
+
+.container h1 {
+    font-size: 35px;
+    color: rgba(74, 226, 168, 0.9);
+}
+
+
+select, input {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+}
+
+form {
+    text-align: center;
+    width: 100%;
+}
+
+
+footer {
+    width: 100%;
+    background-color: rgba(0, 163, 168, 0.9);
+    text-align: center;
+    bottom:0;
+    position:static;
+}
+
+.footer p {
+    padding: 0;
+}
+
+.text-foot {
+    padding: 20px 0 20px 0;
+}
+
+.text-foot a {
+    font-family: arial;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    padding: 0 10px 0 10px;
+
+}
+
+.text-foot a:hover {
+    font-family: arial;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    padding: 0 10px 0 10px;
+}
+
+.text-foot p {
+    font-size: 7px;
+    margin: 0px;
+}
+
+footer img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
